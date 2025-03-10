@@ -197,43 +197,7 @@ footer p {
 
 
 
-/* Стили для меню */
-.menu-icon {
-    display: none; /* По умолчанию скрываем иконку меню */
-    font-size: 24px;
-    cursor: pointer;
-}
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-/* Адаптивные стили для мобильных устройств */
-@media (max-width: 768px) {
-    .menu-icon {
-        display: block; /* Показываем иконку меню */
-    }
-
-    .nav-links {
-        display: none; /* Скрываем меню */
-        flex-direction: column;
-        background: #333;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-    }
-
-    .nav-links.active {
-        display: flex; /* Показываем меню при активации */
-    }
-}
 
 
 /* Contact Section Styles */
